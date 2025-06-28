@@ -1,0 +1,21 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "A microservice that converts between Unix timestamps and natural language dates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["timestamp", "microservice", "api", "date", "unix"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.15.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
